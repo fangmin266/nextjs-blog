@@ -15,8 +15,9 @@
    jsconfig.json에 root 경로 설정
    slug 파일 (다양한 위계의 dynamic 제공 )
    ex. user/[username].js user/[user]/username.js
-
+   query route
    <img width="1746" alt="스크린샷 2023-06-11 오후 1 47 44" src="https://github.com/fangmin266/gitlevelup/assets/123913446/87606a14-0c42-4a04-b898-6f34d3e6f49e"/>
+   다중배열 [...date].js 출력시 배열로 출력가능
 
 ## 그외
 

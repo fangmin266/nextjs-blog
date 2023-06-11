@@ -3,9 +3,9 @@ import SubLayout from 'components/SubLayout'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 
-export default function CategorySlug() {
+export default function UserInfo() {
   const router = useRouter()
-  const { slug, from } = router.query
+  const { username, info } = router.query
   const [time, setTime] = useState()
 
   useEffect(() => {
@@ -14,13 +14,13 @@ export default function CategorySlug() {
   return (
     <>
       <h1>
-        {time} {slug} {from}
+        {time} {username} {info}
       </h1>
     </>
   )
 }
 
-CategorySlug.getLayout = function getLayout(page) {
+UserInfo.getLayout = function getLayout(page) {
   return (
     <Layout>
       <SubLayout>{page}</SubLayout>
